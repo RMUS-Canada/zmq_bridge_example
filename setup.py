@@ -11,6 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/jazzy_bridge.launch.py']),
+        ('lib/' + package_name, ['scripts/jazzy_bridge']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
